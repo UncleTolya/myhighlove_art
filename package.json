@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "gh": "yarn build && git add dist -f && git commit -m 'gh-pages' && git subtree push --prefix dist origin gh-pages"
   },
   "dependencies": {
     "express": "4.18.2",
