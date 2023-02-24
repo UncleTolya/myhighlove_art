@@ -1,0 +1,93 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  --color1: #EFE9F4;
+  --color2: #716969;
+  --color3: #D6DEFF;
+  --color4: #FFC2F3;
+  --color5: #0F0F0F;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.is-active {
+  display: unset;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#app {
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+
+.color1 {
+  /*color: #DFBBB1;*/
+  color: #EFE9F4;
+}
+
+.color2 {
+  /*color: #F56476;*/
+  color: #716969;
+}
+
+.color3 {
+  /*color: #E43F6F;*/
+  color: #D6DEFF;
+}
+
+.color4 {
+  /*color: #BE3E82;*/
+  color: #FFC2F3;
+}
+
+.color5 {
+  /*color: #5E4352;*/
+  color: #0F0F0F;
+}
+
+.tab-content {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.tab-content-part {
+  background-color: rgba(255, 255, 255, 0.5);
+  text-align: start;
+  padding: 4px 6px;
+}
+
+a {
+  cursor: pointer;
+}
+
+.highlighted {
+  font-weight: 500;
+  color: var(--color5);
+}
+
+
