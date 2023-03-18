@@ -27,8 +27,6 @@ export class Drawer {
     } else {
       draw(x, y, x2, y2);
     }
-
-
   }
 
   public drawFigure(

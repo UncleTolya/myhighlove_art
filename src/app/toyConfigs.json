@@ -1,6 +1,22 @@
 {
   "toys": [
     {
+      "name": "Пасхальный гусь",
+      "details": "10x5x5cm",
+      "series": "easter",
+      "images": [
+        "goose"
+      ]
+    },
+    {
+      "name": "Кулич пасхальный",
+      "details": "10x5x5cm",
+      "series": "easter",
+      "images": [
+        "keks"
+      ]
+    },
+    {
       "name": "Бас-мастер",
       "details": "80x60x50mm",
       "series": "circus",
