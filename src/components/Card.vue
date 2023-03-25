@@ -35,6 +35,9 @@
     'ru': {
       'circus': 'Цирк',
       'easter': 'Пасха',
+      'kitchen': 'Кухня',
+      'fairytale': 'Сказки',
+      'animals': 'Животные',
       'details': 'Детали',
     },
   }
@@ -93,7 +96,7 @@ onMounted(() => {
     /*width: 50%;*/
   }
   .card-title {
-    font-size: 1.2em;
+    font-size: 1.1em;
     font-weight: bold;
   }
   .card-status {

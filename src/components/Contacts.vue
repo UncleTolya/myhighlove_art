@@ -7,7 +7,6 @@
       <div class="title">{{ $t('toys') }}</div>
       <ul style="margin: 0">
         <li class="adress">{{ $t('mag1') }}</li>
-        <li class="adress">{{ $t('mag2') }}</li>
       </ul>
     </div>
     <div class="tab-content-part" style="display: flex; gap: 10px;">
@@ -33,14 +32,12 @@ const dict: Record<'en' | 'ru', Record<string, string>> = {
   'en': {
     'toys': 'My toys are sold in stores: ',
     'asks': 'For orders and questions write at',
-    'mag1': '21–23a Bolshaya Konyushennaya st., Saint-Petersburg, "DLT"',
-    'mag2': '11/1 Novy Arbat st., Moscow, "Detskiy Mir"',
+    'mag1': '«Мезонин», Санкт-Петербург, Репино, ул.Нагорная 1.',
   },
   'ru': {
-    'toys': 'Мои игрушки продаются в магазинах: ',
-    'asks': 'Для заказов и вопросов пишите на ',
-    'mag1': '"ДЛТ" Санкт-Петербург, Большая Конюшенная, 21–23a',
-    'mag2': '11/1 Novy Arbat st., Moscow, "Detskiy Mir"',
+    'toys': 'Мои игрушки продаются в магазине: ',
+    'asks': 'свяжитесь со мной чтобы заказать создание интерьерной игрушки',
+    'mag1': '«Мезонин», Санкт-Петербург, Репино, ул.Нагорная 1.',
   },
 }
 

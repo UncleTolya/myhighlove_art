@@ -34,7 +34,7 @@
     },
     {
       "name": "Бэби",
-      "details": "80x60x50mm",
+      "details": "11x5cm",
       "series": "easter",
       "images": [
         "baby"
@@ -57,11 +57,35 @@
       ]
     },
     {
+      "name": "Безумный шляпник",
+      "details": "17x10cm",
+      "series": "fairytale",
+      "images": [
+        "hatter"
+      ]
+    },
+    {
+      "name": "Шеф",
+      "details": "17x7cm",
+      "series": "kitchen",
+      "images": [
+        "chief"
+      ]
+    },
+    {
       "name": "Бамбула",
       "details": "80x60x50mm",
       "series": "circus",
       "images": [
         "strongman"
+      ]
+    },
+    {
+      "name": "Кенга Ру",
+      "details": "17x7cm",
+      "series": "animals",
+      "images": [
+        "kenga"
       ]
     }
   ]
