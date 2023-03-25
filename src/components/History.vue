@@ -1,5 +1,5 @@
 <template>
-  <div class="tab-content">
+  <div class="tab-content" style="display: unset">
     <div class="tab-content-part">
       <h4 class="title">{{ $t('title1') }}</h4>
       <div class="text">{{ $t('text1') }}</div>

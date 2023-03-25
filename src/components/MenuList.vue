@@ -7,7 +7,7 @@
       <ToysList v-show="opened === 'toys'"/>
     </div>
     <div class="btn" @click="onClick('history')">{{$t('history')}}</div>
-    <div class="tab" :style="opened === 'history' ? tabStyle : {}">
+    <div class="tab" style="overflow: auto" :style="opened === 'history' ? tabStyle : {}">
       <History v-show="opened === 'history'"/>
     </div>
     <div class="btn" @click="onClick('contacts')">{{$t('contacts')}}</div>
