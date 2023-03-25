@@ -1,12 +1,18 @@
 <template>
-  <div class="tab-content" style="display: unset">
-    <div class="tab-content-part">
-      <h4 class="title">{{ $t('title1') }}</h4>
-      <div class="text">{{ $t('text1') }}</div>
-    </div>
-    <div class="tab-content-part">
-      <h4 class="title">{{ $t('title2') }}</h4>
-      <div class="text">{{ $t('text2') }}</div>
+  <div class="tab-content">
+    <div class="history">
+      <div class="tab-content-part">
+        <h4 class="title">{{ $t('title1') }}</h4>
+      </div>
+      <div class="tab-content-part">
+        <div class="text">{{ $t('text1') }}</div>
+      </div>
+      <div class="tab-content-part">
+        <h4 class="title">{{ $t('title2') }}</h4>
+      </div>
+      <div class="tab-content-part">
+        <div class="text">{{ $t('text2') }}</div>
+      </div>
     </div>
   </div>
 </template>
@@ -44,6 +50,14 @@ const $t = (t: string): string => {
     white-space: pre-wrap;
     text-align: left;
     margin-bottom: 10px;
+  }
+  .history {
+    justify-content: start;
+    display: flex;
+    flex-direction: column;
+    padding: 1em 0;
+    height: 100%;
+    gap: 1em
   }
   .text {
     white-space: pre-wrap;
